@@ -2,4 +2,6 @@
     <string name="app_name">Auto Task</string>
     <string name="edit_message">Enter a message</string>
     <string name="button_send">Send</string>
+    <string name="open_wifi">打开wifi</string>
+    <string name="close_wifi">关闭wifi</string>
 </resources>

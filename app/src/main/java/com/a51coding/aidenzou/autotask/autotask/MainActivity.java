@@ -28,4 +28,14 @@ public class MainActivity extends AppCompatActivity {
         // 启动 Intent 指定的 DisplayMessageActivity 实例
         startActivity(intent);
     }
+
+    // 打开 WIFI
+    public void openWifi(View view) {
+        Tools.toggleWiFi(this, true);
+    }
+
+    // 关闭 WIFI
+    public void closeWifi(View view) {
+        Tools.toggleWiFi(this, false);
+    }
 }
